@@ -1,0 +1,620 @@
+@charset "utf-8";
+
+
+footer {
+float: left;
+width: 100%;	
+}
+
+
+
+
+.att-loco {
+	float: left;
+width: 100%;
+padding: 60px 0px;
+background: url(../images/icons/convenient-learn.jpg);
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+border-top: 2px solid #fff;
+border-bottom: 2px solid #fff;
+}
+
+.att-loco .sect-title {
+	color: #fff;
+	padding-bottom: 40px;
+	text-align:center;
+}
+
+
+.att-loco  .total-loco {
+	
+	width: 700px;
+	background: #fff;
+	padding: 40px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.att-loco .total-loco .remote-loco {
+	float: left;
+	width: 50%;
+	padding-right: 40px;
+	border-right: 1px solid #eaeaea;
+	text-align: right;
+}
+
+
+.att-loco .total-loco .school-loco {
+	float: left;
+	width: 50%;
+	padding-left: 40px;
+	text-align: left;
+}
+
+.att-loco .total-loco .remote-loco img {
+	float: right;
+	height: 60px;
+margin: 20px 0px;
+}
+
+.att-loco .total-loco .school-loco img {
+	float: left;
+	height: 60px;
+margin: 20px 0px;
+}
+
+.att-loco .loco-title {
+	clear: both;
+	width: 100%;
+	color: #1f344f;
+	font-weight: 600;
+	padding: 10px 0px;
+	font-size:18px;
+	border-bottom:1px solid #eaeaea;
+	margin-bottom:5px;
+}
+
+.att-loco .normal-text {
+	clear: both;
+	width: 100%;
+	color: #333;
+	padding: 5px 0px 20px;
+	line-height: 1.5;
+}
+
+.att-loco .remote-loco .button {
+	float: right;
+	width: auto;
+	
+}
+
+
+.att-loco .school-loco .button {
+	float: left;
+	width: auto;
+	
+}
+
+.att-loco {
+	
+	
+}
+
+.att-loco {
+	
+	
+}
+
+.att-loco {
+	
+	
+}
+
+.att-loco {
+	
+	
+}
+
+.att-loco {
+	
+	
+}
+
+
+
+
+
+
+
+
+
+.faqs {
+float: left;
+width: 100%;
+background: #fff;
+}
+
+.faqs-all {
+	float: left;
+width: 100%;
+padding: 20px 0px;
+}
+
+.faqs-all .sect-title {
+	float: left;
+width: 100%;
+padding: 30px 0px 40px 0px;;
+text-align:center;
+color: #323232;
+}
+
+
+
+
+.faqs-left {
+float: left;
+width: 46%;
+}
+
+.faqs-right {
+float: right;
+width: 46%;
+}
+
+.oneq {
+float: left;
+width: 100%;
+margin-bottom: 40px;
+position: relative;
+}
+
+.q-text-title {
+float: left;
+width: 100%;
+padding: 0px 0px 10px 0px;
+text-transform:none;
+padding-left: 30px;
+box-sizing:border-box;
+font-size: 16px;
+    color: #5e5e5e;
+}
+
+.q-details {
+	float: left;
+	width:100%;
+}
+
+.onq {
+	clear:both;
+	float:left;
+	width: 100%;
+	padding-left: 30px;
+	box-sizing:border-box;
+}
+
+.theq-symbol {
+float: none;
+width: 30px;
+position: absolute;
+left: 0px;
+top: 0px;
+display:block;
+}
+
+
+
+.contacts {
+	float: left;
+	width: 100%;
+	background: #1f344f;
+	padding: 40px 0px;
+}
+
+
+.contacts  .sect-title {
+	line-height: 1.3;
+	padding: 0px 0px 20px 0px; 
+	text-align:center;
+	color: #fff;
+}
+
+
+.inquiry-contact {
+	margin: 0 auto;
+	border: 1px solid #ccccff;
+	border-radius:2px;
+	padding: 7px 15px;
+	clear:both;
+	width: 230px;
+	height: auto;
+	overflow:auto;
+}
+
+
+.inquiry-icon {
+	float: left;
+	width: 50px;
+	padding: 0px 15px 0px 0px;
+}
+
+.inquiry-icon img {
+	float: left;
+	width: 100%;
+}
+
+
+.inquiry-details {
+	float: left;
+}
+
+.inquiry-details .normal-text {
+	padding: 0px  0px 5px 0px;
+	color: #ddd;
+	font-size: 13px;
+}
+
+.inquiry-details .nav-text {
+	color: #fff;
+	font-size: 18px;
+}
+
+.site-footer  {
+	float: left;
+	width: 100%;
+	background: #f9f9f9;
+}
+
+.site-footer .inner-container  {
+	padding: 30px 0px 50px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+
+.portion {
+	float: left;
+	width: 25%;
+}
+
+.f-one {
+	padding-right: 20px;
+}
+
+.f-two {
+	padding:0px 10px;
+}
+
+.f-three {
+	padding:0px 10px;
+}
+
+
+.f-four {
+	padding-left:20px;
+}
+
+.portion .normal-text {
+	 padding-top: 7px;
+	 width: 100%;
+	 text-decoration:none;
+	 color: #323232;
+	 clear:both;
+	 display:block;
+}
+
+.footlink {
+	 //font-size: 14px;
+}
+
+.footlink:hover {
+	 color: #000;
+}
+
+.foot-title {
+	padding: 5px 0px;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	color: #909090;
+    font-weight: 700;
+	font-size: 16px;
+}
+
+
+.copyright-sect {
+	float: left;
+	width: 100%;
+}
+
+
+.copyright {
+	float: left;
+	width: 50%;
+}
+
+.powered {
+		float: right;
+	width: 50%;
+	text-align:right;
+}
+
+
+.powered .normal-text {
+    color: #f05918;
+}
+
+
+
+.copyright-sect .inner-container {
+	padding: 10px 0px;
+}
+
+
+
+
+
+.our-partner {
+	float: left;
+	width: 100%;
+	padding: 60px 0px 100px 0px;
+	background: #fff;
+}
+
+.our-partner .sect-title {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+.partner-logo {
+	float: left;
+	width: 100%;
+}
+
+.partner-logo img {
+	float: none;
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	padding-bottom: 20px;
+}
+
+.partner-details {
+	float: none;
+	width: 50%;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #1f344f;
+	margin: 0 auto;
+	display:block;
+	text-align:center;
+	margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1000px){
+	.portion {
+	float: left;
+	width: 50%;
+}
+
+.f-one {
+	padding-right: 20px;
+}
+
+.f-two {
+	padding-left:20px;
+}
+
+.f-three {
+	margin-top: 20px;
+	padding: 0px;
+	padding-right: 20px;
+	clear: both;
+}
+
+
+.f-four {
+	margin-top: 20px;
+	padding: 0px;
+	padding-left:20px;
+}
+
+}
+
+
+
+@media screen and (max-width: 800px){
+.att-loco  .total-loco {	
+	width: 100%;
+	padding: 40px;
+}
+
+.att-loco .total-loco .remote-loco {
+	float: left;
+	width: 50%;
+	padding-right: 40px;
+	border-right: 1px solid #eaeaea;
+	text-align: right;
+}
+
+
+.att-loco .total-loco .school-loco {
+	float: left;
+	width: 50%;
+	padding-left: 40px;
+	text-align: left;
+}
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	.portion {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.f-one {
+	padding:0px;
+}
+
+.f-two {
+	padding:0px;
+}
+
+.f-three {
+	padding: 0px;
+}
+
+
+.f-four {
+	padding: 0px;
+}
+
+.partner-details {
+	float: none;
+	width: 100%;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #333;
+	margin: 0 auto;
+	display:block;
+	text-align:center;
+	margin-top: 20px;
+}
+
+
+}
+
+@media screen and (max-width: 600px){
+
+.att-loco  .total-loco {	
+	width: 100%;
+	padding: 20px;
+}
+
+.att-loco  .total-loco .school-loco img {	
+	float: none;
+	display: block;
+	margin: 0 auto;
+	overflow: auto;
+	height: auto;
+	width: 100px;
+		padding: 20px 0px;
+}
+
+
+.att-loco  .total-loco .remote-loco img {	
+	float: none;
+	display: block;
+	margin: 0 auto;
+	overflow: auto;
+	height: auto;
+	width: 100px;
+	padding: 20px 0px;
+}
+
+
+.att-loco  .total-loco .button {	
+	float: none;
+	display: block;
+	margin: 0 auto;
+	overflow: auto;
+	height: auto;
+	width: 130px;
+	
+}
+
+.att-loco .total-loco .remote-loco {
+	float: left;
+	width: 100%;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	border-right: 0px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+
+.att-loco .total-loco .school-loco {
+	
+	float: left;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+
+.att-loco .total-loco .loco-title {
+	border-bottom: none;
+	
+}
+	
+}
+
+
+
+
+
+@media screen and (max-width: 481px){
+
+.faqs-left {
+float: left;
+width: 100%;
+}
+
+.faqs-right {
+float: left;
+width:100%;
+}
+
+.copyright {
+	float: left;
+	width: 100%;
+}
+
+.powered {
+		float: right;
+	width: 100%;
+	text-align:left;
+}
+
+
+.att-loco  .total-loco .button {	
+	float: none;
+	display: block;
+	margin: 0 auto;
+	overflow: auto;
+	height: auto;
+	width: 100%;
+	
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 250px){
+	.inquiry-contact {
+	margin: 0 auto;
+	border: 1px solid #ccccff;
+	border-radius:2px;
+	padding: 7px 15px;
+	clear:both;
+	width: 90%;
+	height: auto;
+	overflow:auto;
+}
+}

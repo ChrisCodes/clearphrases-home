@@ -1,0 +1,15 @@
+.cp-intro {
+	background: #f7f7f7;
+}
+
+
+
+.cp-intro  .action-box {
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding: 20px 20px 30px 20px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	overflow: hidden;
+}

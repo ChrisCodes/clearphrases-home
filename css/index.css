@@ -1,0 +1,632 @@
+@charset "utf-8";
+
+* {
+margin: 0px;
+padding : 0px;
+border: none;
+outline:none;
+box-sizing: border-box;	
+line-height: 1.3;
+font-family: "Helvetica Neue Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.site-banner {
+	float: left; 
+	width: 100%;
+	background:url(../images/slide-2.jpg);
+	background-size:cover;
+	background-position: center;
+	position: relative;
+	height: 450px;
+	box-sizing:content-box;
+	margin-top: 60px;
+}
+
+
+.black-transparency {
+    float: left; 
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+	height: 100%;
+} 
+
+.black-transparency .inner-container {
+   height: 100%;
+}
+
+.center-wrapper {
+width: 100%;
+float: left;
+margin-top: 120px;
+
+}
+
+.center-wrapper .sect-title {
+  color: #fff;
+  text-align:center;
+  padding: 20px 0px;
+}
+
+.center-wrapper .normal-text {
+  color: #fff;
+  text-align:center;
+  padding: 0px 0px 40px 0px;
+}
+
+
+
+
+
+.trending-in-tech {
+float: left;
+width: 100%;
+padding: 40px 0px 0px 0px;
+background: #fff;
+}
+
+.trending-in-tech .sect-title {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.trending-in-tech .understmt {
+  text-align: center;
+   padding: 0px 0px 25px 0px;
+}
+
+
+.trending-tech-skills {
+float: left;
+width: 100%;
+background: #eaeaea;
+padding: 35px 0px;
+}
+
+.in-design {
+	padding-bottom: 60px;
+}
+
+.tech-skill {
+float: left;
+width: 33.33%;
+}
+
+.tech-skill.t1 {
+	padding: 0px 50px 0px 0px;
+	clear: both;
+}
+
+.tech-skill.t2 {
+	padding: 0px 25px 0px 25px;
+}
+
+.tech-skill.t3 {
+	padding: 0px 0px 0px 50px;
+}
+
+.tech-skill-inner {
+	float: left;
+	width: 100%;
+background: #fff;
+border-radius: 2px;
+overflow:hidden;
+}
+
+.tech-skill-inner .nav-text {
+font-size: 15.5px;
+padding: 0px 0px 7px 0px;
+width: 100%;
+float:left;
+}
+
+.tech-skill-inner .normal-text {
+width: 100%;
+float:left;
+min-height: 60px;
+}
+
+.tech-skill-inner .page-link {
+width: 100%;
+float:left;
+text-decoration:none;
+display:block;
+}
+
+
+.skill-image {
+	float: left;
+	width: 100%;
+	position: relative;
+	height: 200px;
+}
+
+.t1 .skill-image {
+   background: url(../images/coursesbitmaps/web-development.jpg);
+   background-size:cover;
+   background-position: center;
+}
+
+.t2 .skill-image {
+   background:url(../images/coursesbitmaps/computer-programming.png);
+   background-size:cover;
+   background-position: center;
+}
+
+.t3 .skill-image {
+   background:url(../images/coursesbitmaps/android-development.png);
+   background-size:cover;
+   background-position: center;
+}
+
+
+.num-coaches {
+	float:none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 100px;
+	background: rgba(0,0,0,0.6);
+	color: #ddd;
+	text-align:center;
+	display:block;
+	height:25px;
+	line-height:25px;
+}
+
+.skill-text {
+    float: left;
+	width: 100%;
+	padding: 6px 10px 15px 10px;
+}
+
+
+
+
+
+
+
+.t1.d1 .skill-image {
+   background:url(../images/coursesbitmaps/photoshop-design.jpg);
+   background-size:cover;
+   background-position: center;
+}
+
+.t2.d2 .skill-image {
+   background:url(../images/coursesbitmaps/web-ui-design.jpg);
+   background-size:cover;
+   background-position: center;
+}
+
+.t3.d3 .skill-image {
+   background:url(../images/coursesbitmaps/mobile-ui-patterns.jpg);
+   background-size:cover;
+   background-position: center;
+}
+
+
+
+
+.join-easilearn {
+float: left;
+width: 100%;
+padding: 80px 0px;
+background:#1f344f;
+}
+
+
+.join-easilearn .sect-title {
+text-align: center;
+color: #fff;
+float: left;
+width: 100%;
+padding: 0px 0px 30px 0px;
+}
+
+.join-easilearn .nav-text {
+text-align: center;
+color: #ddd;
+float: left;
+width: 100%;
+padding: 0px 0px 50px 0px;
+font-weight: 500;
+font-size: 16px;
+}
+.join-easilearn .nav-text .stress {
+color: #fff;
+font-size: 17px;
+font-weight: 600;
+}
+
+.join-buttons {
+width: 490px;
+margin: 0 auto;
+overflow:auto;
+}
+
+
+.req-coach {
+float: left;
+display:block;
+text-decoration:none;
+}
+
+.join-buttons .or {
+float: left;
+width: 50px;
+color: #fff;
+display:block;
+text-align: center;	
+line-height: 50px;
+}
+
+.exp-courses {
+float: right;
+clear:none !important;
+display:block;
+text-decoration:none;
+}
+
+
+.about-brief {
+	float: left;
+	width: 100%;
+	padding: 60px 0px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #eaeaea;
+	text-align: center;
+	background:url(../images/icons/aback.png);
+}
+
+.about-brief .sect-title {
+color: #1f344f;
+}
+
+
+.about-brief .normal-text {
+	float: none;
+	width: 600px;
+	padding: 30px 0px;;
+	margin: 0 auto;
+	display: block;
+	line-height:1.4;
+}
+
+
+.programs-brief {
+	float: left;
+	width: 100%;
+	padding: 60px 0px;
+	background: #fff;
+	border-bottom: 1px solid #eaeaea;	
+}
+
+.programs-brief .sect-title {
+text-align: center;	
+padding-bottom: 20px;
+}
+.programs-brief .understmt {
+text-align: center;	
+padding-bottom: 40px;
+}
+
+
+
+.programs-brief .one-b-prog {
+	float: left;
+	width: 25%;
+	padding: 20px;
+	background: #eaeaea;
+	min-height: 300px;
+	border-radius: 4px;
+}
+
+.programs-brief .one-b-prog img {
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+.programs-brief .one-b-prog .button {
+	width: auto !important;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.programs-brief .one-b-prog .pb-title {
+float: left;
+width: 100%;
+padding: 10px 0px;
+text-align: center;
+font-weight: 600;
+font-size: 16px;
+color: #1f344f;
+}
+
+
+.programs-brief .one-b-prog .bfeats {
+float: left;
+list-style-position:inside;
+list-style-image:url(../images/icons/orange-lst.png);
+width: 100%;
+padding: 20px 0px;
+text-align: center;
+}
+
+.programs-brief .one-b-prog .bfeats li {
+float: left;
+width: 100%;
+padding: 6px 0px;
+line-height: 20px;
+}
+
+.programs-brief .one-b-prog.sp {
+	margin: 0px 12.5%;
+}
+
+
+.programs-brief .one-b-prog.tp {
+	background: #1f344f;
+}
+
+.programs-brief .one-b-prog.tp .pb-title {
+	color: #fff;
+}
+
+.programs-brief .one-b-prog.tp .bfeats li {
+	color: #fff;
+	list-style-image:url(../images/icons/white-lst.png);
+}
+
+
+
+. {
+	
+}
+
+
+
+. {
+	
+}
+
+
+. {
+	
+}
+
+
+. {
+	
+}
+
+
+. {
+	
+}
+
+
+. {
+	
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+.tech-skill.t1 {
+	padding: 0px 25px 0px 0px;
+}
+
+.tech-skill.t2 {
+	padding: 0px 12.5px 0px 12.5px;
+}
+
+.tech-skill.t3 {
+	padding: 0px 0px 0px 25px;
+}
+
+.skill-image, .tech-skill-inner, tech-skill  {
+	overflow: visible !important;
+}
+
+
+.about-brief .normal-text {
+	width: 80%;
+	padding: 20px 0px;;
+}
+
+
+.programs-brief .one-b-prog {
+	width: 30%;
+	padding: 20px;
+}
+
+.programs-brief .one-b-prog.sp {
+	margin: 0px 5%;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+.programs-brief .one-b-prog {
+	width: 45%;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.programs-brief .one-b-prog.tp {
+	clear: both;
+}
+
+.programs-brief .one-b-prog.sp {
+	margin: 0px 0px 0px 10%;
+}
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+	.site-banner {
+		height: 380px;
+	}
+	
+	.center-wrapper {
+		margin-top: 80px;
+	}
+	
+  .tech-skill {
+float: none;
+width: 300px;
+clear: both;
+margin: 0 auto;
+overflow:auto;
+margin-bottom: 35px;
+}
+
+	
+	.tech-skill.t1 {
+	padding:0px;
+}
+
+.tech-skill.t2 {
+	padding: 0px;
+}
+
+.tech-skill.t3 {
+	padding: 0px;
+}
+
+.join-buttons {
+width: 100%;
+margin: 0 auto;
+overflow:auto;
+}
+
+
+.req-coach {
+float: none;
+display:block;
+text-decoration:none;
+margin: 0 auto;
+overflow:auto;
+}
+
+.join-buttons .or {
+float: none;
+clear:both;
+width: 50px;
+color: #fff;
+display:block;
+text-align: center;	
+line-height: 30px;
+margin: 0 auto;
+overflow:auto;
+}
+
+.exp-courses {
+float: none;
+clear:both !important;
+display:block;
+text-decoration:none;
+margin: 0 auto;
+overflow:auto;
+}
+
+
+.in-design {
+padding-bottom: 35px;
+}
+
+.skill-image, .tech-skill-inner, tech-skill  {
+	overflow: visible !important;
+}
+
+
+.about-brief .normal-text {
+	width: 100%;
+	padding: 20px 0px;;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 480px){
+	.site-banner {
+		height: 380px;
+	}
+	
+	.center-wrapper {
+		margin-top: 50px;
+	}
+	
+	  .tech-skill {
+float: none;
+width: 86%;
+clear: both;
+margin: 0 auto;
+overflow:auto;
+margin-bottom: 20px;
+}
+
+.tech-skill-inner .page-link {
+width: 100%;
+float:left;
+text-decoration:none;
+display:block;
+padding-top: 10px;
+}
+
+
+.in-design {
+padding-bottom: 35px;
+}
+
+.skill-image, .tech-skill-inner, tech-skill  {
+	overflow: visible !important;
+}
+
+.skill-image {
+	float: left;
+	width: 100%;
+	position: relative;
+	height: 130px;
+}
+
+
+
+
+.programs-brief .one-b-prog {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 30px;
+	clear: both;
+}
+.programs-brief .one-b-prog.tp {
+	clear: both;
+}
+
+.programs-brief .one-b-prog.sp {
+	margin: 0px 0px 30px 0px;
+}
+
+
+
+
+}
